@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "463736751237",
+    "firebase_url": "https://e-book-reader-82408.firebaseio.com",
+    "project_id": "e-book-reader-82408",
+    "storage_bucket": "e-book-reader-82408.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463736751237:android:d314a2cb11eab85ef855ec",
+        "android_client_info": {
+          "package_name": "com.akd.in.e_bookreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463736751237-nr68dh6n8bkvpp07hv2ntaev08icei52.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.akd.in.e_bookreader",
+            "certificate_hash": "4106b5e1860dd25adaf9633fc0228cc4aa69efec"
+          }
+        },
+        {
+          "client_id": "463736751237-vep541e9djjhmh1b68itpf5t79eqi5fu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3YZLohSSlvMVpSjb4909B3-cWSUbwhLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463736751237-vep541e9djjhmh1b68itpf5t79eqi5fu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.akd.in.e_bookreader.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_categories"
+        android:name="com.akd.in.e_bookreader.ui.categories.CategoriesFragment"
+        android:label="@string/menu_categories"
+        tools:layout="@layout/fragment_categories" >
+        <action
+            android:id="@+id/action_nav_categories_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_downloads"
+        android:name="com.akd.in.e_bookreader.ui.downloads.DownloadsFragment"
+        android:label="@string/menu_downloads"
+        tools:layout="@layout/fragment_downloads" >
+        <action
+            android:id="@+id/action_nav_downloads_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.akd.in.e_bookreader.ui.downloads.DownloadsFragment"
+        android:label="@string/menu_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_nav_favorites_to_nav_home"
+            app:destination="@id/nav_home" />
+
+    </fragment>
+
+
+
+</navigation>
